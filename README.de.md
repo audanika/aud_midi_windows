@@ -10,6 +10,7 @@ Teil der aud_midi-Familie, siehe [aud_midi](https://github.com/audanika/aud_midi
 - Windows MIDI Services (Midi2) zur Laufzeit erkannt
 - C++/WinRT-Shim, gebaut per Hook
 - Advertising über DnsServiceRegister
+- BLE-Peripheral über GattServiceProvider
 
 ## Stand
 
