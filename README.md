@@ -10,6 +10,7 @@ Part of the aud_midi family, see [aud_midi](https://github.com/audanika/aud_midi
 - Windows MIDI Services (Midi2) detected at runtime
 - C++/WinRT shim built by a hook
 - Advertising via DnsServiceRegister
+- BLE peripheral through GattServiceProvider
 
 ## State
 
