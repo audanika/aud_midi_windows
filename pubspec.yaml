@@ -1,9 +1,8 @@
 name: aud_midi_windows
 description: "Windows backend for aud_midi: Windows.Devices.Midi and Windows MIDI Services"
-version: 0.0.0
-homepage: https://github.com/audanika/aud_midi_windows
-repository: https://github.com/audanika/aud_midi_windows
-publish_to: none
+version: 0.1.0
+homepage: https://github.com/audmidi/aud_midi_windows
+repository: https://github.com/audmidi/aud_midi_windows
 topics:
   - midi
   - audio
@@ -16,17 +15,16 @@ environment:
 
 dev_dependencies:
   dna_audanika: ^0.0.2
+  ffigen: ^23.0.0
   helix: ^1.11.0
   lints: ^6.1.0
   test: ^1.32.0
 dependencies:
-  aud_midi_core:
-    git:
-      url: git@github.com:audanika/aud_midi_core.git
-      tag_pattern: "{{version}}"
-    version: ^0.0.0
-  aud_midi_standard:
-    git:
-      url: git@github.com:audanika/aud_midi_standard.git
-      tag_pattern: "{{version}}"
-    version: ^0.0.0
+  aud_midi_core: ^0.1.0
+  aud_midi_standard: ^0.1.0
+  code_assets: ^2.1.0
+  ffi: ^2.2.0
+  hooks: ^2.2.0
+  logging: ^1.3.0
+  native_toolchain_c: ^0.19.5
+  win32: ^6.4.0

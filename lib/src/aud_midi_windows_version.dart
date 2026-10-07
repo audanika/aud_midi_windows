@@ -9,4 +9,4 @@
 // coverage:ignore-file
 
 /// The version of the `aud_midi_windows` package.
-const String audMidiWindowsVersion = '0.0.0';
+const String audMidiWindowsVersion = '0.1.0';

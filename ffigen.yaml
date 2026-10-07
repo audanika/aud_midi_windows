@@ -1,0 +1,49 @@
+# @license
+# Copyright (c) Audanika
+#
+# Use of this source code is governed by terms that can be
+# found in the LICENSE file in the root of this package.
+
+# Generates the Dart bindings of the C API of the shim. The header is plain
+# C, so the bindings generate on any host:
+#
+#   dart run ffigen --config ffigen.yaml
+#
+# The functions bind through @Native to the code asset that hook/build.dart
+# builds on Windows.
+name: AudMidiWindowsBindings
+description: Bindings for src/aud_midi_windows.h.
+output: lib/src/shim/aud_midi_windows_bindings.g.dart
+headers:
+  entry-points:
+    - src/aud_midi_windows.h
+  include-directives:
+    - src/aud_midi_windows.h
+ffi-native:
+  asset-id: package:aud_midi_windows/aud_midi_windows_shim
+functions:
+  include:
+    - amw_.*
+macros:
+  include:
+    - AMW_.*
+structs:
+  include:
+    - amw_context
+typedefs:
+  include:
+    - amw_signal_fn
+comments:
+  style: any
+  length: full
+preamble: |
+  // @license
+  // Copyright (c) Audanika
+  //
+  // Use of this source code is governed by terms that can be
+  // found in the LICENSE file in the root of this package.
+
+  // Generated from src/aud_midi_windows.h by ffigen.yaml, do not edit.
+  // Windows only: the code asset exists on Windows alone.
+  // coverage:ignore-file
+  // ignore_for_file: type=lint, unused_element, unused_field
