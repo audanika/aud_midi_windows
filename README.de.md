@@ -4,7 +4,7 @@ Das Windows-Backend von aud_midi: Windows.Devices.Midi und, falls
 vorhanden, Windows MIDI Services über einen C++/WinRT-Shim,
 Bluetooth-LE-MIDI-Pairing und DNS-SD-Advertising für Netzwerk-Sessions.
 
-Teil der aud_midi-Familie, siehe [aud_midi](https://github.com/audanika/aud_midi).
+Teil der aud_midi-Familie, siehe [aud_midi](https://github.com/audmidi/aud_midi).
 
 ## Ziele
 
@@ -145,7 +145,7 @@ tool/test_native_core.sh              # nativer Kerntest, prüft die Goldens
 tool/test_native_core.sh --update     # schreibt test/goldens neu
 ```
 
-Siehe den Plan in [aud_midi_pm](https://github.com/audanika/aud_midi_pm/blob/main/doc/2026-Q4/tickets/2026-10-06-aud_midi_01-initial-midi-implementation.md).
+Siehe den Plan in [aud_midi_pm](https://github.com/audmidi/aud_midi_pm/blob/main/doc/2026-Q4/tickets/2026-10-06-aud_midi_01-initial-midi-implementation.md).
 
 ## Installation
 
