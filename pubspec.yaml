@@ -1,6 +1,6 @@
 name: aud_midi_windows
 description: "Windows backend for aud_midi: Windows.Devices.Midi and Windows MIDI Services"
-version: 0.0.0
+version: 0.1.0
 homepage: https://github.com/audmidi/aud_midi_windows
 repository: https://github.com/audmidi/aud_midi_windows
 topics:
