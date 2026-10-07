@@ -15,6 +15,7 @@ Teil der aud_midi-Familie, siehe [aud_midi](https://github.com/audmidi/aud_midi)
 - C++/WinRT-Shim, gebaut per Hook, blockiert nie einen STA-Thread
 - Pairing von BLE-MIDI-Peripheriegeräten in der App
 - Advertising über DnsServiceRegister
+- BLE-Peripheral über GattServiceProvider
 
 ## Stand
 

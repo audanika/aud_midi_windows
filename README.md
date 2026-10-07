@@ -15,6 +15,7 @@ Part of the aud_midi family, see [aud_midi](https://github.com/audmidi/aud_midi)
 - C++/WinRT shim built by a hook, never blocking an STA thread
 - In-app pairing of BLE-MIDI peripherals
 - Advertising via DnsServiceRegister
+- BLE peripheral through GattServiceProvider
 
 ## State
 
