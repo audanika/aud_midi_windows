@@ -8,11 +8,12 @@ import 'package:aud_midi_windows/aud_midi_windows.dart';
 import 'package:test/test.dart';
 
 void main() {
-  group('Example', () {
-    group('greet()', () {
-      test('should greet the name', () {
-        expect(const Example('World').greet(), 'Hello World!');
-      });
+  group('WindowsMidiApi', () {
+    test('offers automatic selection and both APIs', () {
+      expect(
+        WindowsMidiApi.values.map((api) => api.name),
+        equals(['auto', 'midi1', 'midi2']),
+      );
     });
   });
 }
